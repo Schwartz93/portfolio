@@ -59,18 +59,18 @@
 
     <section class="technologies">
     <div class="technologies-title-container">
-            <h2 class="technologies-title">Technologies</h2>
+            <h2 class="technologies-title">Main Technologies</h2>
         </div>
         <div class="technologies-container">
             <div class="html-container">
                 <img class="html-image" src="pictures/html-5.svg" alt="html-img">
-            <h3 class="html">HTML</h3>
+            <h3 class="html">Html</h3>
                 <p class="html-summary"></p>
             </div>
 
             <div class="css-container">
                 <img class="css-image" src="pictures/css-3.svg" alt="css-img">
-            <h3 class="css">CSS</h3>
+            <h3 class="css">Css</h3>
                 <p class="css-summary"></p>
             </div>
 

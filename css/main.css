@@ -136,9 +136,8 @@ h3 {
 }
 
 .service-title-container {
-    width: 8em;
-    margin: 0 auto;
     text-align: center;
+    display: grid;
 }
 
 .services {
@@ -256,21 +255,23 @@ h3 {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     justify-items: center;
-    padding: 10em 16em 16em 16em;
+    padding: 6em 20em 6em 20em;
 }
 
 .technologies-title-container {
-    width: 8em;
-    margin: 0 auto;
+    text-align: center;
+    display: grid;
 }
 
 .technologies-title {
     font-size: 2.5em;
+    justify-self: start;
+    margin: 0 0 0 7em;
 }
 
 .html-image {
     width: auto;
-    height: 180px;
+    height: 80px;
     filter: grayscale(100%);
     margin-bottom: 2em;
     transition: 0.3s ease-in-out;
@@ -278,7 +279,8 @@ h3 {
 
 .html {
     text-align: center;
-    text-transform: uppercase;
+    
+    font-weight: 400;
 }
 
 .html-image:hover {
@@ -287,7 +289,7 @@ h3 {
 
 .css-image {
     width: auto;
-    height: 180px;
+    height: 80px;
     filter: grayscale(100%);
     margin-bottom: 2em;
     transition: 0.3s ease-in-out;
@@ -295,7 +297,8 @@ h3 {
 
 .css {
     text-align: center;
-    text-transform: uppercase;
+    
+    font-weight: 400;
 }
 
 .css-image:hover {
@@ -304,7 +307,7 @@ h3 {
 
 .javascript-image {
     width: auto;
-    height: 180px;
+    height: 80px;
     filter: grayscale(100%);
     margin-bottom: 2em;
     transition: 0.3s ease-in-out;
@@ -316,12 +319,13 @@ h3 {
 
 .javascript {
     text-align: center;
-    text-transform: uppercase;
+    
+    font-weight: 400;
 }
 
 .php-image {
     width: auto;
-    height: 180px;
+    height: 80px;
     filter: grayscale(100%);
     margin-bottom: 2em;
     transition: 0.3s ease-in-out;
@@ -333,7 +337,8 @@ h3 {
 
 .php {
     text-align: center;
-    text-transform: uppercase;
+    
+    font-weight: 400;
 }
 
 /* FOOTER CSS */
