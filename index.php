@@ -89,8 +89,12 @@
     </section>
     <footer>
         <div class="footer-container">
-            <div class="contact-title"></div>
-            <div class="contact-details-container"></div>
+            <div class="contact-title">Contact us</div>
+            <div class="contact-details-container">
+                <div class="visit"><h4>Visit us</h4></div>
+                <div class="email"><h4>Email us</h4></div>
+                <div class="phone"><h4>Call us</h4></div>
+            </div>
             <div class="copyright"></div>
         </div>
     </footer>

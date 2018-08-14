@@ -131,7 +131,7 @@ h3 {
     grid-template-rows: 1fr;
     grid-template-columns: 33.3% 33.3% 33.3% ;
     text-align: center;
-    margin: 1em 12em;
+    margin: 3em 12em 0 12em;
     margin-bottom: 5em;
 }
 
@@ -148,6 +148,8 @@ h3 {
 .services-title {
     margin-bottom: 1em;
     font-size: 1.5em;
+    justify-self: start;
+    margin: 0 0 0 9em;
 }
     /* DESKTOP CONTAINER*/
 
@@ -273,7 +275,7 @@ h3 {
     width: auto;
     height: 80px;
     filter: grayscale(100%);
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     transition: 0.3s ease-in-out;
 }
 
@@ -291,7 +293,7 @@ h3 {
     width: auto;
     height: 80px;
     filter: grayscale(100%);
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     transition: 0.3s ease-in-out;
 }
 
@@ -309,7 +311,7 @@ h3 {
     width: auto;
     height: 80px;
     filter: grayscale(100%);
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     transition: 0.3s ease-in-out;
 }
 
@@ -327,7 +329,7 @@ h3 {
     width: auto;
     height: 80px;
     filter: grayscale(100%);
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     transition: 0.3s ease-in-out;
 }
 
