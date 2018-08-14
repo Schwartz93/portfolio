@@ -1,0 +1,341 @@
+/* CSS HTML & BODY */
+html {
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    background-color: #1D2125;
+    color: rgb(170, 173, 177);
+}
+
+body {
+    background-color: #f0f0f0;
+   
+}
+
+/* NAVBAR CSS */
+
+.logo_wrapper {
+    display: inline-block;
+}
+
+nav {
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.headerContainer {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 5% 95%;
+    align-items: center;
+    justify-items: end;
+    width: 90%;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 22em;
+    padding: 0.8em 3em;
+}
+
+.navigation_ul {
+    display: inline-flex;
+    list-style-type: none;
+    align-self: center;
+    margin: 0;
+}
+
+.navigation_ul li {
+    margin: 0 2em;
+    font-weight: 600;
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
+
+.logo_li {
+    list-style-type: none;
+}
+
+
+/* JUMBOTRON UND ALLGEMEINES CSS */
+
+.jumbotron {
+    background-image: url(../pictures/mac8.jpg);
+    background-color: #1D2125;
+    border-radius: 0px;
+    padding: 0;
+    height: 100vh;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    margin-bottom: 14em;
+}
+.info {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 100%;
+    text-align: center;
+    width: 1152px;
+    margin: 0 auto;
+}
+
+.slogan_h1 {
+    font-size: 4em;
+    color: #000;
+  
+}
+
+.slogan_h2 {
+    font-size: 1.7em;
+    color: #000;
+}
+
+.more_info {
+    justify-self: center;
+    border-radius: 3px;
+    border: none;
+    padding: 15px 37px;
+    background-color: #494C50;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.more_info:hover {
+    background-color:  #E6A73A;
+    transition: 0.3s;
+}
+
+a {
+    color: #000;
+}
+
+a:hover {
+    color: #E6A73A;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+h1,h2 {
+    color: #000;
+    display: inline-block;
+}
+
+h3 {
+    font-size: 1.3em;
+    margin-bottom: 2em;
+}
+
+/* SERVICES CSS */
+
+.development-container {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 33.3% 33.3% 33.3% ;
+    text-align: center;
+    margin: 10em 12em;
+    margin-bottom: 5em;
+}
+
+.service-title-container {
+    width: 8em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.services {
+    font-size: 1.8em;
+    margin-bottom: 5em;
+}
+
+.services-title {
+    margin-bottom: 3em;
+    font-size: 1.5em;
+}
+    /* DESKTOP CONTAINER*/
+
+.desktop-container {
+    padding: 5em 0;
+    transition: 0.3s ease-in-out;
+}
+
+.desktop-container:hover {
+    background-color: #fff;
+    box-shadow: 0px 0px 5px 0px rgba(13,13,13,1);
+    border-radius: 4px 4px 4px 4px;
+    transform: scale(1.1);
+}
+
+.desktop-image {
+    margin-bottom: 3em;
+    height: 200px;
+    width: auto;
+}
+
+.desktop-summary {
+    padding: 0px 5em;
+}
+
+/* MOBILE CONTAINER*/
+
+.mobile-container {
+    padding: 5em 0;
+    transition: 0.3s ease-in-out;
+}
+
+.mobile-container:hover {
+    background-color: #fff;
+    box-shadow: 0px 0px 5px 0px rgba(13,13,13,1);
+    border-radius: 4px 4px 4px 4px;
+    border: 0px solid #000000;
+    transform: scale(1.1);
+}
+
+.mobile-image {
+    margin-bottom: 3em;
+    height: 200px;
+    width: auto;
+}
+
+.mobile-summary {
+    padding: 0px 5em;
+}
+
+/* UI/UX CONTAINER */
+
+.ui-container {
+    padding: 5em 0;
+    transition: 0.3s ease-in-out;
+}
+
+.ui-container:hover {
+    background-color: #fff;
+    box-shadow: 0px 0px 5px 0px rgba(13,13,13,1);
+    border-radius: 4px 4px 4px 4px;
+    border: 0px solid #000000;
+    transform: scale(1.1);
+}
+
+.ui-image {
+    margin-bottom: 3em;
+    height: 200px;
+    width: auto;
+}
+
+.ui-summary {
+    padding: 0px 5em;
+}
+
+.services-button {
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 3px;
+    border: none;
+    padding: 15px 10px;
+    background-color: #E6A73A;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 500;
+}
+
+.services-button:hover {
+    background-color: #494C50;
+    transition: 0.3s;
+}
+/* TECHNOLOGIES CSS */
+
+.technologies {
+    background-color: #fff;
+    padding-top: 5em;
+}
+
+.technologies-container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-items: center;
+    padding: 10em 16em 16em 16em;
+}
+
+.technologies-title-container {
+    width: 8em;
+    margin: 0 auto;
+}
+
+.technologies-title {
+    font-size: 2.5em;
+}
+
+.html-image {
+    width: auto;
+    height: 180px;
+    filter: grayscale(100%);
+    margin-bottom: 2em;
+    transition: 0.3s ease-in-out;
+}
+
+.html {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.html-image:hover {
+    filter: none;
+}
+
+.css-image {
+    width: auto;
+    height: 180px;
+    filter: grayscale(100%);
+    margin-bottom: 2em;
+    transition: 0.3s ease-in-out;
+}
+
+.css {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.css-image:hover {
+    filter: none;
+}
+
+.javascript-image {
+    width: auto;
+    height: 180px;
+    filter: grayscale(100%);
+    margin-bottom: 2em;
+    transition: 0.3s ease-in-out;
+}
+
+.javascript-image:hover {
+    filter: none;
+}
+
+.javascript {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.php-image {
+    width: auto;
+    height: 180px;
+    filter: grayscale(100%);
+    margin-bottom: 2em;
+    transition: 0.3s ease-in-out;
+}
+
+.php-image:hover {
+    filter: none;
+}
+
+.php {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* FOOTER CSS */
+
+.footer-container {
+    background-color: #1D2125;
+    width: 100%;
+    height: 900px;
+}
