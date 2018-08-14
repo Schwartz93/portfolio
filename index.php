@@ -54,7 +54,7 @@
                 </div>
                 </div>
             </div>
-            <button class ="services-button">More Services</button>
+            <button class ="services-button">See More Services</button>
     </section>
 
     <section class="technologies">

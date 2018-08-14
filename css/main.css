@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    background-color: #f0f0f0;
+    background-color: #f9f9f9;
    
 }
 
@@ -153,7 +153,7 @@ h3 {
     /* DESKTOP CONTAINER*/
 
 .desktop-container {
-    padding: 1em 0;
+    padding: 1em 2em;
     transition: 0.3s ease-in-out;
 }
 
@@ -171,14 +171,14 @@ h3 {
 }
 
 .desktop-summary {
-    padding: 0px 1em;
+    font-weight: 200;
     font-size: 0.6em;
 }
 
 /* MOBILE CONTAINER*/
 
 .mobile-container {
-    padding: 1em 0;
+    padding: 1em 2em;
     transition: 0.3s ease-in-out;
 }
 
@@ -197,14 +197,14 @@ h3 {
 }
 
 .mobile-summary {
-    padding: 0px 1em;
+    font-weight: 200;
     font-size: 0.6em;
 }
 
 /* UI/UX CONTAINER */
 
 .ui-container {
-    padding: 1em 0;
+    padding: 1em 2em;
     transition: 0.3s ease-in-out;
 }
 
@@ -223,21 +223,22 @@ h3 {
 }
 
 .ui-summary {
-    padding: 0px 1em;
+    font-weight: 200;
     font-size: 0.6em;
 }
 
 .services-button {
-    width: 500px;
+    width: 219px;
+    height: 37px;
     display: block;
     margin: 0 auto;
     border-radius: 3px;
     border: none;
-    padding: 15px 10px;
     background-color: #E6A73A;
     text-transform: uppercase;
     color: #fff;
     font-weight: 500;
+    font-size: 0.5em;
 }
 
 .services-button:hover {
