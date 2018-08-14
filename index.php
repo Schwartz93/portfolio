@@ -39,7 +39,7 @@
                 <div class="mobile-container">
                 <img class="mobile-image" src="pictures/mobile-dev.png" alt="">
                     <h3 class="mobile">Mobile Optimization</h3>
-                        <p class="mobile-summary">There is no need to drop features on a smaller screen. <br> Mobile Optimization is the key.  </p>
+                        <p class="mobile-summary">There is no need to drop features on a smaller screen. Good content needs to be accessible on the go <br> Mobile Optimization is the key.  </p>
                 </div>
                 <div class="desktop-container">
                     <img class="desktop-image" src="pictures/web-dev.png" alt="">

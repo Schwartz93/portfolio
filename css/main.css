@@ -120,7 +120,7 @@ h1,h2 {
 }
 
 h3 {
-    font-size: 1.3em;
+    font-size: 0.8em;
     margin-bottom: 2em;
 }
 
@@ -131,7 +131,7 @@ h3 {
     grid-template-rows: 1fr;
     grid-template-columns: 33.3% 33.3% 33.3% ;
     text-align: center;
-    margin: 10em 12em;
+    margin: 1em 12em;
     margin-bottom: 5em;
 }
 
@@ -147,13 +147,13 @@ h3 {
 }
 
 .services-title {
-    margin-bottom: 3em;
+    margin-bottom: 1em;
     font-size: 1.5em;
 }
     /* DESKTOP CONTAINER*/
 
 .desktop-container {
-    padding: 5em 0;
+    padding: 1em 0;
     transition: 0.3s ease-in-out;
 }
 
@@ -171,13 +171,14 @@ h3 {
 }
 
 .desktop-summary {
-    padding: 0px 5em;
+    padding: 0px 1em;
+    font-size: 0.6em;
 }
 
 /* MOBILE CONTAINER*/
 
 .mobile-container {
-    padding: 5em 0;
+    padding: 1em 0;
     transition: 0.3s ease-in-out;
 }
 
@@ -196,13 +197,14 @@ h3 {
 }
 
 .mobile-summary {
-    padding: 0px 5em;
+    padding: 0px 1em;
+    font-size: 0.6em;
 }
 
 /* UI/UX CONTAINER */
 
 .ui-container {
-    padding: 5em 0;
+    padding: 1em 0;
     transition: 0.3s ease-in-out;
 }
 
@@ -221,7 +223,8 @@ h3 {
 }
 
 .ui-summary {
-    padding: 0px 5em;
+    padding: 0px 1em;
+    font-size: 0.6em;
 }
 
 .services-button {
