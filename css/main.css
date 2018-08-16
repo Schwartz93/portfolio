@@ -2,7 +2,7 @@
 html {
     height: 100%;
     font-family: 'Poppins', sans-serif;
-    background-color: #1D2125;
+    background-color: #272320;
     color: rgb(170, 173, 177);
 }
 
@@ -32,7 +32,7 @@ nav {
     width: 90%;
     position: relative;
     margin: 0 auto;
-    margin-bottom: 22em;
+    margin-bottom: 14em;
     padding: 0.8em 3em;
 }
 
@@ -58,8 +58,8 @@ nav {
 /* JUMBOTRON UND ALLGEMEINES CSS */
 
 .jumbotron {
-    background-image: url(../pictures/mac8.jpg);
-    background-color: #1D2125;
+    background-image: url(../pictures/mac6.1.jpg);
+    background-color: #272320;
     border-radius: 0px;
     padding: 0;
     height: 100vh;
@@ -78,13 +78,13 @@ nav {
 
 .slogan_h1 {
     font-size: 4em;
-    color: #000;
+    color: rgb(167, 167, 167);
   
 }
 
 .slogan_h2 {
     font-size: 1.7em;
-    color: #000;
+    color: rgb(167, 167, 167);
 }
 
 .more_info {
@@ -105,7 +105,7 @@ nav {
 }
 
 a {
-    color: #000;
+    color: rgb(167, 167, 167);
 }
 
 a:hover {
@@ -346,7 +346,7 @@ h3 {
 /* FOOTER CSS */
 
 .footer-container {
-    background-color: #1D2125;
+    background-color: #272320;
     width: 100%;
     height: 900px;
 }
