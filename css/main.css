@@ -32,7 +32,7 @@ nav {
     width: 90%;
     position: relative;
     margin: 0 auto;
-    margin-bottom: 14em;
+    margin-bottom: 16em;
     padding: 0.8em 3em;
 }
 
@@ -46,7 +46,7 @@ nav {
 .navigation_ul li {
     margin: 0 2em;
     font-weight: 600;
-    font-size: 1.3em;
+    font-size: 0.9em;
     text-transform: uppercase;
 }
 
@@ -77,13 +77,13 @@ nav {
 }
 
 .slogan_h1 {
-    font-size: 4em;
+    font-size: 3em;
     color: rgb(167, 167, 167);
   
 }
 
 .slogan_h2 {
-    font-size: 1.7em;
+    font-size: 1.1em;
     color: rgb(167, 167, 167);
 }
 
@@ -91,12 +91,12 @@ nav {
     justify-self: center;
     border-radius: 3px;
     border: none;
-    padding: 15px 37px;
+    padding: 7px 19px;
     background-color: #494C50;
     text-transform: uppercase;
     color: #fff;
     font-weight: 600;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 .more_info:hover {
@@ -341,6 +341,61 @@ h3 {
     text-align: center;
     
     font-weight: 400;
+}
+
+/* CONTACT CSS*/
+
+.contact {
+    padding: 5em 0 4em 0;
+} 
+
+.contact-title-container {
+    display: grid;
+    justify-items: start;
+    margin: 0 0 0 17em;
+    margin-bottom: 3em;
+}  
+
+.input-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-columns: auto;
+}
+
+.form-control-name {
+    margin: 0.2em;
+}
+
+.form-control-email {
+    margin: 0.2em;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+.contact-title {
+    font-size: 2.5em;
+}
+
+/* BOOTSTRAP FORM INPUT CSS */
+
+.form-control {
+    margin-bottom: 2em;
+}
+
+.form-check-input {
+    position: relative; 
+    margin-top: .3rem;
+    margin: 0;
+    margin-right: 0.5em;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 1.5rem;
+    margin-right: 1.3em;
 }
 
 /* FOOTER CSS */

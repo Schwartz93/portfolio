@@ -87,6 +87,39 @@
             </div>
         </div>
     </section>
+
+    <section  class="contact">
+        <div class="contact-title-container">
+            <h2 class="contact-title">Contact</h2>
+        </div>
+        <div class="contact-container">
+            <div class="image-wrapper"></div>
+            <div class="form">
+                <form action="uploads.php" method="POST" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <div class="input-container">
+                            <input type="text" class="form-control form-control-name" placeholder="Name">
+                            <input type="email" class="form-control form-control-email" placeholder="Email">
+                        </div>
+                    <div class="form-wrapper">
+                        <input type="checkbox" class="form-check-input" name="Web Development" id="Web">
+                            <label for="Web">Web Development</label>
+                        <input type="checkbox" class="form-check-input" name="Mobile Development" id="Mobile">
+                            <label for="Mobile">Mobile Development</label>
+                        <input type="checkbox" class="form-check-input" name="UI/UX Design" id="UI">
+                            <label for="UI">UI/UX Design</label>
+                        
+                        <textarea name="message" class="form-control" id="message" cols="70" rows="9"></textarea>
+                        <input type="file" name="file" id="">
+                        <button type="submit" name="upload">Upload</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
     <footer>
         <div class="footer-container">
             <div class="contact-title">Contact us</div>
