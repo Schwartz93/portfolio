@@ -90,10 +90,15 @@
 
     <section  class="contact">
         <div class="contact-title-container">
-            <h2 class="contact-title">Contact</h2>
+            <h2 class="contact-title">We bring ideas to life</h2>
+            <h3>Become our client and get the best services and emotions with us</h3>
         </div>
         <div class="contact-container">
-            <div class="image-wrapper"></div>
+            <div class="image-wrapper">
+                <img src="pictures/profile.jpg" width="200" height="200" alt="" class="profile-pic">
+                <p class="image-name">Nathalie Nürnberger</p>
+                <p class="image-description">Engagement manager</p>
+            </div>
             <div class="form">
                 <form action="uploads.php" method="POST" enctype="multipart/form-data">
                     <div class="form-group">
@@ -111,7 +116,7 @@
                         
                         <textarea name="message" class="form-control" id="message" cols="70" rows="9"></textarea>
                         <input type="file" name="file" id="">
-                        <button type="submit" name="upload">Upload</button>
+                        <button type="submit" class="file btn btn-lg btn-primary" name="upload">Upload</button>
                     </div>
                 </form>
             </div>
@@ -122,7 +127,9 @@
 
     <footer>
         <div class="footer-container">
-            <div class="contact-title">Contact us</div>
+            <div class="contact-title-container">
+                <div class="contact-title">Contact us</div>
+            </div>
             <div class="contact-details-container">
                 <div class="visit"><h4>Visit us</h4></div>
                 <div class="email"><h4>Email us</h4></div>

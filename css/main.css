@@ -346,7 +346,7 @@ h3 {
 /* CONTACT CSS*/
 
 .contact {
-    padding: 5em 0 4em 0;
+    padding: 8em 0 8em 0;
 } 
 
 .contact-title-container {
@@ -372,11 +372,21 @@ h3 {
 
 .contact-container {
     display: grid;
-    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-columns: 35% 65%;
+    margin: 0 30em;
 }
 
 .contact-title {
     font-size: 2.5em;
+}
+
+.image-wrapper {
+    text-align: center;
+    margin-right: 5em;
+}
+
+.image-description {
+
 }
 
 /* BOOTSTRAP FORM INPUT CSS */
@@ -399,6 +409,10 @@ label {
 }
 
 /* FOOTER CSS */
+
+footer {
+    color: rgb(167, 167, 167);
+}
 
 .footer-container {
     background-color: #272320;
