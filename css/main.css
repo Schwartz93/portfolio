@@ -33,7 +33,7 @@ nav {
     width: 90%;
     position: relative;
     margin: 0 auto;
-    margin-bottom: 16em;
+    margin-bottom: 22em;
     padding: 0.8em 3em;
 }
 
@@ -59,8 +59,8 @@ nav {
 /* JUMBOTRON UND ALLGEMEINES CSS */
 
 .jumbotron {
-    background-image: url(../pictures/mac6.1.jpg);
-    background-color: #272320;
+    background-image: url(../pictures/mac7.jpg);
+    background-color: #000;
     border-radius: 0px;
     padding: 0;
     height: 100vh;
@@ -68,6 +68,7 @@ nav {
     background-repeat: no-repeat;
     margin-bottom: 14em;
 }
+
 .info {
     display: grid;
     grid-template-rows: 1fr;
@@ -79,13 +80,13 @@ nav {
 
 .slogan_h1 {
     font-size: 3em;
-    color: rgb(167, 167, 167);
+    color: #fff;
   
 }
 
 .slogan_h2 {
     font-size: 1.1em;
-    color: rgb(167, 167, 167);
+    color: #fff;
 }
 
 .more_info {
@@ -106,7 +107,7 @@ nav {
 }
 
 a {
-    color: rgb(167, 167, 167);
+    color: #fff;
 }
 
 a:hover {
@@ -412,7 +413,7 @@ label {
 /* FOOTER CSS */
 
 footer {
-    color: rgb(167, 167, 167);
+    color: #fff;
 }
 
 .footer-container {
@@ -431,11 +432,12 @@ footer {
 
 .copyright {
     text-align: center;
+    margin-bottom: 1em;
 }
 
 .logo-footer {
+    display: block;
     margin: 0 auto;
-    position: absolute;
 }
 
 /* MAPS */
