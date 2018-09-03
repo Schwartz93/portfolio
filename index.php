@@ -96,7 +96,7 @@
         <div class="contact-container">
             <div class="image-wrapper">
                 <img src="pictures/profile.jpg" width="200" height="200" alt="" class="profile-pic">
-                <p class="image-name">Nathalie Nürnberger</p>
+                <strong><p class="image-name">Nathalie Nürnberger</p></strong>
                 <p class="image-description">Engagement manager</p>
             </div>
             <div class="form">
@@ -122,20 +122,35 @@
             </div>
         </div>
     </section>
-
-
-
     <footer>
         <div class="footer-container">
             <div class="contact-title-container">
                 <div class="contact-title">Contact us</div>
             </div>
             <div class="contact-details-container">
-                <div class="visit"><h4>Visit us</h4></div>
-                <div class="email"><h4>Email us</h4></div>
-                <div class="phone"><h4>Call us</h4></div>
+                <div class="visit"><h4>Location</h4>
+                    <p>Dornbacherstraße 30, 1170 Wien</p>
+                </div>
+                <div class="email"><h4>Email</h4>
+                    <p>random.email@adress.com</p>
+                </div>
+                <div class="phone"><h4>Phone</h4>
+                    +43 123 78 49 50
+                </div>
             </div>
-            <div class="copyright"></div>
+            <div id="map"></div>
+            <script>
+                var map;
+                function initMap() {
+                    map = new google.maps.Map(document.getElementById('map'), {
+                    center: {lat: 48.228427, lng: 16.299481},
+                    zoom: 15
+                    });
+                }
+            </script>
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgy0750Kxqz-x9G3QAgRCPZeUFvYNNJGM&callback=initMap" async defer></script>
+            <div class="copyright">All rights reserved CompanyName 2018</div>
+            <img src="pictures/html-5.svg" width="30" height="30" alt="logo-footer" class="logo-footer">
         </div>
     </footer>
 </body>
