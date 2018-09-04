@@ -24,8 +24,8 @@
                     </ul>
             </header>
             <div class="info">
-                <h1 class="slogan_h1">Web Development</h1> <br>
-                <p class="slogan_h2">Optimized for Desktop and Mobile</p> <br>
+                <h1 class="slogan_h1">Web Development / PHP & MySQL</h1> <br>
+                
                 <button class ="more_info">Show me more</button>
             </div>
         </section>
