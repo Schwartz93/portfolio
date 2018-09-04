@@ -448,4 +448,14 @@ footer {
     margin: 0 0 5em 17em;
   }
 
-  
+.services {
+    opacity: 0;
+  }
+
+.technologies {
+    opacity: 0;
+}
+
+.contact {
+    opacity: 0;
+}

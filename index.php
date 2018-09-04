@@ -5,7 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/main.css">  
+    <link rel="stylesheet" href="css/main.css"> 
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script> 
+    <script src="javascript/scroll.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <title>Michael Schwartz</title>
 </head>
@@ -14,11 +19,11 @@
         <section class="jumbotron">
             <header class="headerContainer">  
                 <div class="logo_wrapper">
-                    <a class="logo" href="index.html"><img src="pictures/html-5.svg" alt="html_logo" width="60" height="60"></a> 
+                    <a class="logo" href="index.php"><img src="pictures/html-5.svg" alt="html_logo" width="60" height="60"></a> 
                 </div>
                     <ul class="navigation_ul">
-                        <li><a href="projects.html">Projects</a></li>
-                        <li><a href="services.html">Services</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Maps</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
