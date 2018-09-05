@@ -1,0 +1,1 @@
+﻿Vorname Nachname test.email@gmail.com Das ist ein Sample Text. Hier steht die Message des Kunden. In einer txt wird diese hinter dessen Name und Email Adresse angefügt.

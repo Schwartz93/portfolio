@@ -25,6 +25,7 @@ if (isset($_POST['upload'])) {
                 $fileDestination = 'uploads/' . $fileNameNew;
                 move_uploaded_file($fileTmpName, $fileDestination);
                 header("Location: index.php#contact");
+                echo "<script> alert('Message successfully sent!'); </script>";
 // Error falls die Datei die maximale Größe überschreitet
             } else {
                 echo "Filesize must be under 5mb!";
@@ -33,33 +34,24 @@ if (isset($_POST['upload'])) {
         } else {
             echo "There was an error uploading your file!";
         }
-// Error falls die Dateiendung nicht mit den erlaubten übereinstimmt
-    } else {
-        header("Location: index.php#contact");
-        echo "<script> alert('No file or unsupported filetype!') </script>";
-    }
+    } 
 }
 
 
-
-// Check ob Name, Email und eine Checkbox engetragen wurden. Textarea und Fileupload sind nicht Pflicht!
-if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['check'])) {
-// TExt input in Variablen speichern
+// Check ob Name und Email engetragen wurden. Textarea und Fileupload sind nicht Pflicht!
+if(isset($_POST['name']) && isset($_POST['email'])) {
+// Text input in Variablen speichern
     $name = $_POST['name'];
     $email = $_POST['email'];
     $message = $_POST['message'];
 
-   
-// Textfile öffnen und die aus den Inputfeldern erhaltenen Daten in ein txt file schreiben und anschließend schließen.
+// Textfile öffnen und die aus den Inputfeldern erhaltenen Daten in ein txt file schreiben und anschließend schließen. 
+// (ACHTUNG: Annahme dass der Name einzigartig ist. Ansonsten wird bei doppeltem Namen in ein file geschrieben. WIRD ERSETZT DURCH MYSQL DATENBANK!!!)
     $file = fopen($name . ".txt", 'a');
     fwrite($file, $name . " ");
     fwrite($file, $email . " ");
     fwrite($file, $message);
-    
     fclose($file);
 }
-
-
-
 
 ?>

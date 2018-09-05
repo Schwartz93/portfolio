@@ -94,7 +94,7 @@
     <a name="contact"></a>
     <section class="contact">
         <div class="contact-title-container">
-            <h2 class="contact-title">We bring ideas to life</h2>
+            <h2 class="contact-title">Please leave a message</h2>
             <h3>Become our client and get the best services and emotions with us</h3>
         </div>
 
@@ -112,13 +112,6 @@
                             <input type="text" name="name" class="form-control form-control-name" placeholder="Name">
                             <input type="email" name="email" class="form-control form-control-email" placeholder="Email">
                         </div>
-                            <input type="checkbox" name="check" class="form-check-input" value="Web Development" id="Web">
-                                <label for="Web">Web Development</label>
-                            <input type="checkbox" name="check" class="form-check-input" value="Mobile Development" id="Mobile">
-                                <label for="Mobile">Mobile Development</label>
-                            <input type="checkbox" name="check" class="form-check-input" value="UI/UX Design" id="UI">
-                                <label for="UI">UI/UX Design</label>
-                                
                             <textarea name="message" class="form-control" id="message" cols="70" rows="9"></textarea>
                             <input type="file" name="file" id="file-input">
                             <button type="submit" class="file btn btn-lg btn-primary" name="upload">Submit</button>
