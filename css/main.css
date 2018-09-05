@@ -65,7 +65,7 @@ nav {
     height: 100vh;
     background-size: 100vw;
     background-repeat: no-repeat;
-    margin-bottom: 14em;
+    margin-bottom: 8em;
 }
 
 .info {
@@ -425,7 +425,7 @@ footer {
 .contact-details-container {
     display: grid;
     grid-template-columns: 33% 33% 33%;
-    margin: 0 0 7em 17em;
+    margin: 0 0 4em 17em;
 
 }
 
@@ -449,7 +449,7 @@ footer {
 
 /* JAVASCRIPT FADE IN - CSS SETTINGS */
 
-/*
+
 .services {
     opacity: 0;
   }
@@ -458,6 +458,3 @@ footer {
     opacity: 0;
 }
 
-.contact {
-    opacity: 0;
-}

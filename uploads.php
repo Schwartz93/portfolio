@@ -41,19 +41,25 @@ if (isset($_POST['upload'])) {
 }
 
 
-if(isset($_POST['name']) && isset($_POST['email'])) {
 
+// Check ob Name, Email und eine Checkbox engetragen wurden. Textarea und Fileupload sind nicht Pflicht!
+if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['check'])) {
+// TExt input in Variablen speichern
     $name = $_POST['name'];
     $email = $_POST['email'];
-    
-    foreach ($_POST as $key => $value) {
-        $dataset = $value;
-    };
+    $message = $_POST['message'];
 
+   
+// Textfile öffnen und die aus den Inputfeldern erhaltenen Daten in ein txt file schreiben und anschließend schließen.
     $file = fopen($name . ".txt", 'a');
     fwrite($file, $name . " ");
-    fwrite($file, $email);
+    fwrite($file, $email . " ");
+    fwrite($file, $message);
+    
     fclose($file);
 }
+
+
+
 
 ?>
