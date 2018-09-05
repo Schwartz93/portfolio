@@ -55,7 +55,6 @@ nav {
     list-style-type: none;
 }
 
-
 /* JUMBOTRON UND ALLGEMEINES CSS */
 
 .jumbotron {
@@ -138,8 +137,10 @@ h3 {
 }
 
 .service-title-container {
-    text-align: center;
     display: grid;
+    justify-items: start;
+    margin: 0 0 0 17rem;
+    margin-bottom: 5em;
 }
 
 .services {
@@ -148,12 +149,11 @@ h3 {
 }
 
 .services-title {
-    margin-bottom: 1em;
-    font-size: 1.5em;
+    font-size: 40px;
     justify-self: start;
-    margin: 0 0 0 9em;
 }
-    /* DESKTOP CONTAINER*/
+
+/* DESKTOP CONTAINER */
 
 .desktop-container {
     padding: 1em 2em;
@@ -178,7 +178,7 @@ h3 {
     font-size: 0.6em;
 }
 
-/* MOBILE CONTAINER*/
+/* MOBILE CONTAINER */
 
 .mobile-container {
     padding: 1em 2em;
@@ -268,7 +268,7 @@ h3 {
 }
 
 .technologies-title {
-    font-size: 2.5em;
+    font-size: 40px;
     justify-self: start;
     margin: 0 0 0 7em;
 }
@@ -345,7 +345,7 @@ h3 {
     font-weight: 400;
 }
 
-/* CONTACT CSS*/
+/* CONTACT CSS */
 
 .contact {
     padding: 8em 0 8em 0;
@@ -360,8 +360,6 @@ h3 {
 
 .input-container {
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-auto-columns: auto;
 }
 
 .form-control-name {
@@ -376,10 +374,11 @@ h3 {
     display: grid;
     grid-template-columns: 35% 65%;
     margin: 0 30em;
+    grid-column-gap: 1em;
 }
 
 .contact-title {
-    font-size: 2.5em;
+    font-size: 40px;
 }
 
 .image-wrapper {
@@ -448,6 +447,9 @@ footer {
     margin: 0 0 5em 17em;
   }
 
+/* JAVASCRIPT FADE IN - CSS SETTINGS */
+
+/*
 .services {
     opacity: 0;
   }

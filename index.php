@@ -24,13 +24,12 @@
                     <ul class="navigation_ul">
                         <li><a href="#">Services</a></li>
                         <li><a href="#">Maps</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
                     </ul>
             </header>
             <div class="info">
                 <h1 class="slogan_h1">Web Development / PHP & MySQL</h1> <br>
-                
                 <button class ="more_info">Show me more</button>
             </div>
         </section>
@@ -56,7 +55,6 @@
                     <img class="ui-image" src="pictures/product-design.png" alt="">
                     <h3 class="ui">Product Design</h3>
                         <p class="ui-summary">The most functional and best engineered website can be boring to look at and unapealing. A pleasant user experience is just as important to us as a functioning website.</p>
-                </div>
                 </div>
             </div>
             <button class ="services-button">See More Services</button>
@@ -92,38 +90,40 @@
             </div>
         </div>
     </section>
-
-    <section  class="contact">
+    <!-- a tag für php-->
+    <a name="contact"></a>
+    <section class="contact">
         <div class="contact-title-container">
             <h2 class="contact-title">We bring ideas to life</h2>
             <h3>Become our client and get the best services and emotions with us</h3>
         </div>
+
         <div class="contact-container">
             <div class="image-wrapper">
                 <img src="pictures/profile.jpg" width="200" height="200" alt="" class="profile-pic">
-                <strong><p class="image-name">Nathalie Nürnberger</p></strong>
+                <p class="image-name"><strong>Nathalie Nürnberger</strong></p>
                 <p class="image-description">Engagement manager</p>
             </div>
             <div class="form">
+            <div class="form-wrapper">
                 <form action="uploads.php" method="POST" enctype="multipart/form-data">
                     <div class="form-group">
                         <div class="input-container">
-                            <input type="text" class="form-control form-control-name" placeholder="Name">
-                            <input type="email" class="form-control form-control-email" placeholder="Email">
+                            <input type="text" name="name" class="form-control form-control-name" placeholder="Name">
+                            <input type="email" name="email" class="form-control form-control-email" placeholder="Email">
                         </div>
-                    <div class="form-wrapper">
-                        <input type="checkbox" class="form-check-input" name="Web Development" id="Web">
-                            <label for="Web">Web Development</label>
-                        <input type="checkbox" class="form-check-input" name="Mobile Development" id="Mobile">
-                            <label for="Mobile">Mobile Development</label>
-                        <input type="checkbox" class="form-check-input" name="UI/UX Design" id="UI">
-                            <label for="UI">UI/UX Design</label>
-                        
-                        <textarea name="message" class="form-control" id="message" cols="70" rows="9"></textarea>
-                        <input type="file" name="file" id="">
-                        <button type="submit" class="file btn btn-lg btn-primary" name="upload">Upload</button>
-                    </div>
+                            <input type="checkbox" class="form-check-input" name="Web Development" id="Web">
+                                <label for="Web">Web Development</label>
+                            <input type="checkbox" class="form-check-input" name="Mobile Development" id="Mobile">
+                                <label for="Mobile">Mobile Development</label>
+                            <input type="checkbox" class="form-check-input" name="UI/UX Design" id="UI">
+                                <label for="UI">UI/UX Design</label>
+                            <textarea name="message" class="form-control" id="message" cols="70" rows="9"></textarea>
+                            <input type="file" name="file" id="file-input">
+                            <button type="submit" class="file btn btn-lg btn-primary" name="upload">Submit</button>
+                    </div>  
                 </form>
+                </div>
             </div>
         </div>
     </section>
